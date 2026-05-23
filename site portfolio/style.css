@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+
+/*PORTFOLIO AAAAAAAAAAAAAAAAAAAAAAaa*/
+
+.cabecalho{
+    width: 100%;
+    background: linear-gradient(to right, #7b2cff, #b84dff);
+    padding: 25px 40px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+}
+
+.portfolioheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolioheader h1{
+    color: white;
+    font-size: 40px;
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+}
+
+.informacao{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.informacao:hover{
+    color: #00fff7;
+}
+
+.portfoliomain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.titulo{
+    font-size: 45px;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.descricao{
+    font-size: 22px;
+    max-width: 900px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+
+.imagem-portfolio{
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+}
+
+/*galeria legal obscura*/
+
+
+.xotedagaleria{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+
+.imagemedescricao{
+    position: relative;
+}
+
+.imagensgaleria{
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+    display: block;
+}
+
+.descricaoimg{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    border-radius: 0 0 20px 20px;
+    opacity: 0;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+/*euamohover*/
+
+.imagemedescricao:hover .descricaoimg{
+    opacity: 1;
+}
