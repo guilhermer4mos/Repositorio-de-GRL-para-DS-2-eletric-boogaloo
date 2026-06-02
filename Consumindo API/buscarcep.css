@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+div {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+}
